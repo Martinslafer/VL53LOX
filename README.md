@@ -49,3 +49,6 @@
 - **Url:** https://github.com/adafruit/Adafruit_VL53L0X
 - **Architectures:** *
 - **Depends:** Adafruit SSD1306, Adafruit GFX Library
+
+## Driver
+Para conectar el Arduino Nano resulto que como la versión es vieja tuve que hacer un Roll-back del driver CH340 del año 2014 con una versión .zip . Con las versiones actualmente del año 2023, no existe conexión alguna. Suelta un error de status 1 al no reconocer el Arduino. DescargarDriver[testing]()
